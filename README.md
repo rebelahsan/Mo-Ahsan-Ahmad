@@ -2,5 +2,7 @@
 
 ## COSC 5P77, SPN project under the guidance of Prof. Dr. Li.
 ## Dept. of Comp. Science, Brock University, ON, CA
+# Sum-Product Networks (SPNs) are a type of deep neural network, specifically a type of deep probabilistic graphical model. SPNs combine ideas from graphical models and neural networks to form a hierarchical structure capable of representing complex probability distributions.
 In our practical approach, we imported the MNIST dataset using PyTorch and normalized it with a transformation (mean=0.5, standard deviation=0.5). The dataset included 60,000 training samples and 10,000 test samples. For efficient processing, we divided the data into 64-batch size. As a result, our training loader contained 938 (60000/64≈938), similarly the test loader contained 157 (10000/64≈157) batches of data, each containing 64 samples. Moving forward, we next initialized the weights for our Sum-Product Network (SPN) class and configured its architecture and settings for training and inference. This systematic methodology paved the way for implementing and experimenting with SPNs on the MNIST dataset.
+# Initializing Weights: Define a function to initialize the weights of the neural network layers using Xavier initialization.
 #### Direct Link to access the code: https://github.com/rebelahsan/Mo-Ahsan-Ahmad/blob/main/5P77_SPN_Project_code.ipynb
